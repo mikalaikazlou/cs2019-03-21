@@ -1,6 +1,6 @@
 package by.it._tasks_.lesson01;
 
-class Main {
+class TaskC {
     public static void main(String[] args) {
         for (byte i = 0; i != -1; i++) {
             String binary = Integer.toBinaryString(i);
