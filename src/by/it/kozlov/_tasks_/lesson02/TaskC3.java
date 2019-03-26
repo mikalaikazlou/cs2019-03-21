@@ -1,5 +1,7 @@
 package by.it.kozlov._tasks_.lesson02;
 
+import java.util.Scanner;
+
 /*
 Ускорение свободного падения на Земле и Марсе таково:
 Марс   3.86
