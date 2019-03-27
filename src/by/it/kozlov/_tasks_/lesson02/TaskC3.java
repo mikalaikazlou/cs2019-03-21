@@ -31,15 +31,29 @@ import java.util.Scanner;
 
 
 */
+
 class TaskC3 {
     static class getWeight{
     public static void main (String[]args){
         System.out.println("Ввод:");
         Scanner sn = new Scanner(System.in);
         int a = sn.nextInt();
-        int i = a * 386*100 / 981;
+       int i = a * 386*100 / 981;
         double v= (double) i/100;
         System.out.println("Вывод\n" + v);
         }
     }
     }
+ /*
+    class getWeight {
+    static void getWeight (int weight){
+            double getWeight;
+            System.out.println("Ввод:");
+            Scanner sn = new Scanner(System.in);
+            int a = sn.nextInt();
+            getWeight = (int) a * 3.86 * 100.0 / 9.81;
+            double v = getWeight / 100.0;
+            System.out.println("Вывод\n" + v);
+        }
+    }
+*/
