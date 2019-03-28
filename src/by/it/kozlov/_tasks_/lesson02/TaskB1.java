@@ -19,5 +19,14 @@ int i=sc.nextInt();
 
  */
 
+import java.io.InputStream;
+import java.util.Scanner;
+
 class TaskB1 {
+    public static void main(String[] args) {
+        System.out.println("Введите целое число a:");
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
+        System.out.println("Квадрат числа a = "+i*i+"!");
+    }
 }
