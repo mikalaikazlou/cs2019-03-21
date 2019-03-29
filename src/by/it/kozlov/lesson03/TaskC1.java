@@ -24,9 +24,20 @@ TC = (TF – 32) * 5/9
 в градусы Фаренгейта и возвращать это число.*/
 
 
+import java.util.Scanner;
+
 class TaskC1 {
-
-
+      public static double convertCelsiumToFahrenheit(int celsium){
+          double TF= (int)celsium*9/5+32;
+        return  TF;
+}
+    public static void main(String[] args) {
+          System.out.println();
+          Scanner sc= new Scanner(System.in);
+          int celsium= sc.nextInt();
+        double D= convertCelsiumToFahrenheit ( celsium);
+        System.out.println(D);
+}
 
 
 
