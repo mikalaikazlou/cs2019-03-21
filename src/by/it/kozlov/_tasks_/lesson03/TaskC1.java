@@ -1,4 +1,4 @@
-package by.it.kozlov.lesson03;
+package by.it.kozlov._tasks_.lesson03;
 
 /*
 Lesson 03. Конвертер температуры
