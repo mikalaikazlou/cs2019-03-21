@@ -1,4 +1,4 @@
-package by.it.kozlov.lesson03;
+package by.it.kozlov._tasks_.lesson03;
 
 /*
 Lesson 03. Task A2. Стихотворение
@@ -21,5 +21,12 @@ Lesson 03. Task A2. Стихотворение
 Для автоматической проверки откройте и запустите класс Testing
 */
 class TaskA2 {
-
+    public static void main(String[] args) {
+        String a="Ўстаньце, хлопцы, ўстаньце, браткі!";
+        String b="Ўстань ты, наша старана!";
+        String c="Ўжо глядзіць к нам на палаткі";
+        String d="Жыцця новага вясна.";
+        System.out.println("Мое любимое стихотворение:");
+        System.out.println('\n'+a+'\n'+b+'\n'+c+'\n'+d);
+    }
 }

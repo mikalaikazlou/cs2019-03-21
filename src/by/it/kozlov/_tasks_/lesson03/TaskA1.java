@@ -1,4 +1,4 @@
-package by.it.kozlov.lesson03;
+package by.it.kozlov._tasks_.lesson03;
 
 /*
 Lesson 03. Task A1. Калькулятор.
@@ -54,3 +54,4 @@ class TaskA1 {
         double dmod = a % b;
         System.out.println(dsum + " " + dsab + " " + dmul + " " + ddiv + " " + dmod);
     }
+}

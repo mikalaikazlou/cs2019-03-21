@@ -1,4 +1,7 @@
-package by.it.kozlov.lesson03;
+package by.it.kozlov._tasks_.lesson03;
+
+import java.util.Scanner;
+
 /*
     Сумма цифр четырехзначного числа
 
@@ -19,13 +22,23 @@ package by.it.kozlov.lesson03;
     4. Метод sumDigitsInNumber не должен ничего выводить на экран.
     5. Метод sumDigitsInNumber должен правильно возвращать сумму всех цифр в числе number.
 */
-public class TaskC2 {
-
-
-
-
+class TaskC2 {
+    public static int sumDigitsInNumber(int number) {
+        int D4 = number / 1000;
+        int D3 = number % 1000 / 100;
+        int D2 = number % 100 / 10;
+        int D1 = number % 10;
+        int sum = D4 + D3 + D2 + D1;
+        return sum;
+    }
+    public static void main(String[] args) {
+        System.out.println("Введите четырехзначное число");
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        int A = sumDigitsInNumber(number);
+        System.out.println("\n" + A);
+    }
+}
 //    public static void main(String[] args) {
 //        System.out.println(sumDigitsInNumber(5467));
 //    }
-
-}

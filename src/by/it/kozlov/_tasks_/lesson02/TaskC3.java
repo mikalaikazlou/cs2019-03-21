@@ -33,17 +33,27 @@ import java.util.Scanner;
 */
 
 class TaskC3 {
-    static class getWeight{
-    public static void main (String[]args){
-        System.out.println("Ввод:");
-        Scanner sn = new Scanner(System.in);
-        int a = sn.nextInt();
-       int i = a * 386*100 / 981;
-        double v= (double) i/100;
-        System.out.println("Вывод\n" + v);
+    static double getWeight (int weight){
+        double wA= (weight/9.81*3.86)*100.0;
+        double a= (int) wA;
+        double c= wA-a;
+        if (c>0.5){
+            ++a;
         }
+
+        double s=a/100.0;
+        return s;
+    }
+
+    public static void main(String[] args) {
+        System.out.println();
+        Scanner sc= new Scanner(System.in);
+        int weight = sc.nextInt();
+        double S= getWeight(weight);
+        System.out.println("Вывод:"+"\n"+S);
     }
     }
+
  /*
     class getWeight {
     static void getWeight (int weight){
