@@ -37,14 +37,6 @@ public class TaskC2 {
         int m1=28;
         int m2=30;
         int m3=31;
-       // if (m==1){
-       //     System.out.println("Вывод"+"\n"+d);
-       // }
-       // else if (m==2){
-        //    int d2= m1+d;
-       //     System.out.println("Вывод"+"\n"+d2);
-       // }
-       // else if (m==)
         switch (m){
             case 1:
                 System.out.println("Вывод"+"\n"+d);
