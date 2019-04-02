@@ -141,37 +141,3 @@ else {
 
 
         }}}}}
-            /* if (month==0){
-                System.out.println();
-            }
-            if (month>0 && month<=5){
-                double zp1=a+((a/100)*50);
-                if (zp1==666){
-                    break;
-                }
-                System.out.println(+"\n"+"февраль начислено"+" $"+zp1+"\n"+"март начислено"+" $"+zp1+"\n"+"апрель начислено"+" $"+zp1+"\n"+"май начислено"+" $"+zp1);
-                                   }
-            if (month>5 && month<9){
-                double zp2=a;
-                if (zp2==666){
-                    break;
-                }
-                System.out.println("июнь начислено"+" $"+zp2);
-                System.out.println("июль начислено"+" $"+zp2);
-                System.out.println("август начислено"+" $"+zp2);
-            }
-            if (month>=9 && month<13){
-                double zp3=a+((a/100)*50);
-                if (zp3==666){
-                    break;
-                }
-                System.out.println("сентябрь начислено"+" $"+zp3);
-                System.out.println("октябрь начислено"+" $"+zp3);
-                System.out.println("ноябрь начислено"+" $"+zp3);
-                System.out.println("декабрь начислено"+" $"+zp3);
-                    }
-        }
-    }
-
-}
-*/
