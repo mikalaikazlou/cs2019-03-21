@@ -19,6 +19,29 @@ Index of last element=1
 
 */
 
-public class TaskB3 {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
 
+public class TaskB3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[]m=new int[10];
+        int[]a=new int[10];
+        int[]b = new int[10];
+        for (int i = 0; i < 10; i++) {
+            m[i] = sc.nextInt();
+        }
+
+          for (int i = 1; i < m.length; i++) {
+              for (int j = m.length-1; j >=i ; j--) {
+                if (m[j-1] > m[j]) {
+                    int tr = m[j-1];
+                    m[j-1] = m[j];
+                    m[j] = tr;  }
+                }
+        }
+
+        System.out.println(Arrays.toString(m));
+    }
 }

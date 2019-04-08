@@ -31,9 +31,7 @@ public class TaskB2 {
         m = new int[20];
         Scanner sc= new Scanner(System.in);
         for (int i = 0; i <20; i++) m[i] = sc.nextInt();
-      //  ArrayList a = new ArrayList();
-      //  ArrayList b= new ArrayList();
-        int[]a;
+             int[]a;
         a = new int[10];
         for (int i = 0; i <10 ; i++) {a[i]=m[i];
         }

@@ -26,17 +26,14 @@ END
 public class TaskA2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArrayList list = new ArrayList();
-        String ls = sc.next();
+        ArrayList<String> list = new ArrayList<>();
 
-        while (!sc.next().equals("END")) {
-            ls = sc.next();
-            if (sc.next() != "END") {
-                list.add(ls);
-            }
-            System.out.println(list);
-
-        }
+        while (true) {
+           String ls = sc.next();
+            if (ls.equals("END")) {
+                break;
+            }list.add(ls);
+                   } System.out.println(list);
 
     }
 
