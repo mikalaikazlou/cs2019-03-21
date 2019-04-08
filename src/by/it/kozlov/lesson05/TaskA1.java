@@ -24,6 +24,24 @@ package by.it.kozlov.lesson05;
 */
 
 
-public class TaskA1 {
 
-}
+import java.util.Scanner;
+
+public class TaskA1 {
+    public static void main(String[] args) {
+        int[] array= new int[10];
+        Scanner sc = new Scanner(System.in);
+        int i;
+        for ( i = 9; i >=0 ; i--) array[i] = sc.nextInt();
+        for (int j=0; j<10; j++){
+            System.out.println(array[j]);}
+        }
+        }
+
+
+
+
+
+
+
+

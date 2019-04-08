@@ -10,6 +10,28 @@ package by.it.kozlov.lesson05;
 */
 
 
-public class TaskB1 {
+import java.util.ArrayList;
+import java.util.Arrays;
 
+public class TaskB1 {
+    public static void main(String[] args) {
+        ArrayList<String[]> str= new ArrayList();
+        String[] a ={"one massiv"};
+        String [] b={"two massiv"};
+        String [] c={"three massiv"};
+        String [] d={"four massiv"};
+        String [] e={"five massiv"};
+        str.add(a);
+        str.add(b);
+        str.add(c);
+        str.add(d);
+        str.add(e);
+        System.out.println(str.size());
+        for (int i = 0; i <str.size(); i++) {
+            System.out.print(Arrays.toString(str.get(i)) +"\n");
+        } {
+
+
+        }
+    }
 }
