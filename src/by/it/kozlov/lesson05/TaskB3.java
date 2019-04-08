@@ -31,6 +31,7 @@ public class TaskB3 {
         int[]b = new int[10];
         for (int i = 0; i < 10; i++) {
             m[i] = sc.nextInt();
+            a[i]=m[i];
         }
 
           for (int i = 1; i < m.length; i++) {
@@ -41,7 +42,17 @@ public class TaskB3 {
                     m[j] = tr;  }
                 }
         }
+        for (int i = 0; i <10 ; i++) {
+            if (a[0]==m[i]){
+                int q= i;
+                System.out.println("Index of first element="+i);}
+            if (a[9]==m[i]){
+                int e=i;
+                System.out.println("Index of last element="+i);
+            }
 
-        System.out.println(Arrays.toString(m));
+        }
+      // System.out.println(Arrays.toString(m));
+       //   System.out.println(Arrays.toString(a));
     }
 }
