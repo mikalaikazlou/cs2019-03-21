@@ -25,5 +25,11 @@ package by.it.kozlov.lesson06;
 
 */
 public class TaskA2 {
+    public static void main(String[] args) {
+        Dog a= new Dog("Шарик",5);
+        Dog b= new Dog("Тузик",3);
 
+        System.out.println(a);
+        System.out.println(b);
+    }
 }

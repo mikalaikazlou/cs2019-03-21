@@ -16,7 +16,11 @@ public class Dog {
 
     public int getAge(){return age;}
     public void setAge(int age){this.age=age;}
-
+public Dog (){ }
+public Dog (String name,int age){
+        this.name=name;
+        this.age=age;
+}
     public String toString() {
         return "Кличка: " + name + ". Возраст: " + age;
     }
