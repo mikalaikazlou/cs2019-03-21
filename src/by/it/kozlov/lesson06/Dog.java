@@ -4,8 +4,8 @@ package by.it.kozlov.lesson06;
  * Created by user on 08.04.2019.
  */
 public class Dog {
-    private String name;
-    private int age;
+    String name;
+    int age;
 
     public String getName() {
         return name;
@@ -21,6 +21,7 @@ public Dog (String name,int age){
         this.name=name;
         this.age=age;
 }
+
     public String toString() {
         return "Кличка: " + name + ". Возраст: " + age;
     }
