@@ -30,5 +30,13 @@ package by.it.kozlov.lesson06;
 
 
 public class TaskA1 {
+    public static void main(String[] args) {
+        Dog a= new Dog();
+        a.setName("Шарик");
+        a.setAge(5);
+        Dog b= new Dog();
+        b.setName("Тузик");
+        b.setAge(3);
+        System.out.println(a.getName()+" "+a.getAge()+"\n"+b.getName()+" "+b.getAge());    }
 
 }
